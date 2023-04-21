@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url('fonts/idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+} 
+body{
+    background-color: lightgreen;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    
+}
+
+p{
+    text-indent: 20px;
+}
+
+
+
+header{
+    
+    padding: 10px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(107, 207, 107), darkgreen);
+    color: white;
+    
+}
+
+header > h1{
+    margin: 0%;
+}
+
+header > p{
+    width: 50%;
+    margin: auto;
+  
+}
+
+nav{
+    text-align: left;
+    color: white;
+    
+}
+
+nav > a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+    padding: 10px;
+}
+
+p > a{
+    text-decoration: none;
+    color: blue;
+}
+
+p > a:visited{
+    color: blue;
+}
+
+p > a::after{
+    content: '↑';
+}
+
+picture{
+    width: 800px;
+    text-align: center;
+    
+}
+
+/*img{
+    width: 80%;
+    
+}*/
+
+article > h1{
+    font-family: 'droid', serif;
+    color: darkgreen;
+}
+
+article > h2{
+    font-family: 'droid', serif;
+    color: darkgreen;
+    background-image: linear-gradient(to right, lightgreen, white);
+}
+
+
+
+#extra{
+    background-color: lightgreen;
+
+}
+
+#extra > h2{
+    background-color: green;
+    color: white;
+
+}
+
+#extra > p{
+    padding: 3px;
+}
+
+ul{
+    list-style: '✔';
+}
+
+#video{
+    margin: auto;
+    height: 315px;
+    width: 560px;
+}
+
+footer{
+    background-color: darkgreen;
+    text-align: center;
+}

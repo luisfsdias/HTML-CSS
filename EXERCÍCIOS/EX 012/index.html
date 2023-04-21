@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML 5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+
+    <p>Este vídeo está sendo hospedado localmente no meu proprio servidor</p>
+
+
+    <!--width = largura
+        poster = imagem antes do play-->
+
+        <!--Videos hospedados pela tag video pode custar demais na banda do usuario-->
+    <video width="560" poster="imagens/perfilcerto.png" controls autoplay loop>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+        <source src="midia/meu-video.mkv" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <p>Seu navegador não é compativel</p>
+    </video>
+
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/oSSCRUmaquo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <!--Compartilhar o video em questao, incorporar e copiar o codigo. É bom pq ai consome a hospedagem do youtube. Tambem tem o vimeo pra inserir-->
+    
+</body>
+</html>

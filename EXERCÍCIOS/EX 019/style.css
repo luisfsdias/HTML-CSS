@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/*Id em HTML = # em css
+Class em HTML = . em CSS
+
+Diferença: não pode mais de um id por pagina. Classe pode
+Dar nome a classe pela função dela inves de pela forma*/
+
+/*As configurações do ID sobrepõe a classe quando tem codigo na mesma coisa*/
+
+body{
+    background-color: rgb(159, 248, 159);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: rgb(8, 131, 8);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(8, 131, 8);
+    color: aliceblue;
+}
+
+/*pode ser também só #principal, mas aí pega todas as principal*/
+
+h2{
+    color: rgb(7, 56, 7);
+}
+
+.basico{
+    color: green;
+    font-weight: bold;
+}
+
+.intermediario{
+    color: yellow;
+    font-weight: bold;
+}
+
+.avancado{
+    color: red;
+    font-weight: bold;
+}
+
+.destaque{
+    background-color: rgba(255, 255, 0, 0.596);
+}
