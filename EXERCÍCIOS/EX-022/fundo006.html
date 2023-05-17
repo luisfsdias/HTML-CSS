@@ -10,17 +10,24 @@
     body{
         height: 100vh;
         /*ideal é ter cor de fundo msm tendo background image pq as vezes a imagem demora mais pra carregar*/
-        background-color: black;
+        /*background-color: black;
         background-image: url('imagens/wallpaper002.jpg');
         background-position: center top;
         background-repeat: no-repeat;
         /*contain exibe a imagem 100% exibida
-        cover cobre a tela inteira*/
+        cover cobre a tela inteira
+        background-size: cover;
+        background-attachment: fixed;
+
+        shorthand - background
+        color image position repeat [size]supostamente n funciona attachment*/
+
+        background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
         background-size: cover;
     }
     main{
         background-color: white;
-        width: 400px;
+        max-width: 700px;
         padding: 10px;
         margin: auto;
         border: 2px solid black;
